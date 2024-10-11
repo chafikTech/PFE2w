@@ -1,0 +1,86 @@
+.setting-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+}
+
+.notification-cont {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    height: 380px;
+    position: relative;
+}
+
+.notification-cont header {
+    border-bottom: 2px solid gray;
+    padding: 17px;
+}
+
+.notification-cont header h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.notification-cont header span {
+    opacity: 0.8;
+}
+
+.notification-cont main {
+    padding: 30px;
+    display: flex;
+    gap: 100px;
+}
+
+.notification-cont main section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.password-update {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.password-update input {
+    width: 100%;
+    margin-top: 5px;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    font-size: 1.2em;
+}
+
+.btn-seting{
+    width: 150px;
+    padding: 13px 25px;
+    border: none;
+    color: white;
+    background-color: #3a1019;
+    font-size: 1rem;
+    border-radius: 10px;
+    margin-top: 10px;
+    position: absolute;
+    right: 15px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+.btn-seting:hover{
+    background-color: #942c42;
+}

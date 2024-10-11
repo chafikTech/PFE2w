@@ -1,0 +1,33 @@
+.container-bookTa {
+    width: 100%;
+    padding: 50px;
+}
+
+.container-bookTa h1 {
+    margin-top: 3rem;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-size: 6rem;
+    color: #3a1019;
+    text-align: center;
+}
+
+.bookTable {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30rem;
+}
+
+.table-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 50%;
+}
+
+.table-img img {
+    width: 380px;
+    border-radius: 20px;
+}

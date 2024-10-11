@@ -1,0 +1,91 @@
+.over-container {
+    background: transparent;
+    padding: 30px;
+}
+
+.card-container-over {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-over {
+    background-color: white;
+    box-shadow:
+        rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+        rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    width: 350px;
+    padding: 20px;
+    border: 2px solid #3a1019;
+    border-radius: 10px;
+    position: relative;
+}
+
+.titile-card-over {
+    text-transform: uppercase;
+    color: black;
+    opacity: 0.5;
+}
+
+.mad-logo {
+    position: absolute;
+    right: 10px;
+    background: #3a1019;
+    color: white;
+    padding: 30px 20px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.mad-customer {
+    position: absolute;
+    right: 10px;
+    background: #3a1019;
+    color: white;
+    padding: 27px 25px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.card-over h3 {
+    font-size: 2.3rem;
+    margin-top: 20px;
+}
+
+.card-tp-dw {
+    margin-top: 40px;
+    display: flex;
+    gap: 10px;
+}
+
+.inof-card-ov {
+    color: green;
+    display: flex;
+    gap: 5px;
+}
+
+.card-digram {
+    margin-top: 70px;
+    background: white;
+    box-shadow:
+        rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+        rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #3a1019;
+}
+
+.progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 3px;
+    overflow: hidden;
+    height: 6px;
+    width: 100%;
+}
+
+.progress {
+    height: 100%;
+    width: 75%;
+    background-color: #3a1019;
+}

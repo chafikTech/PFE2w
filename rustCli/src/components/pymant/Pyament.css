@@ -1,0 +1,253 @@
+.payment-con {
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.payment-con h1 {
+  margin-top: 6rem;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-size: 6rem;
+  color: #3a1019;
+}
+
+.payment-item {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 30px;
+  border-bottom: 2px solid #3a1019;
+  padding: 20px;
+}
+
+.delete-button {
+  margin-top: 40px;
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.delete-button:hover {
+  background-color: #fff;
+}
+
+.delete-button:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+.payment-item-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.total-price {
+  margin-top: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.confirm-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+}
+
+.confirm-button {
+  align-items: center;
+  background-color: #3a1019;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.confirm-button:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform 0.2s ease-out;
+  z-index: -1;
+}
+
+.confirm-button:hover:after {
+  transform: translate(0, 0);
+}
+
+.confirm-button:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.confirm-button:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .confirm-button {
+    padding: 0 40px;
+  }
+}
+
+/* Modal Styles */
+.modal-overlay-py {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content-py {
+  backdrop-filter: blur(30px);
+  padding: 50px;
+  border-radius: 8px;
+  border: 2px solid #3a1019;
+  width: 500px;
+  position: relative;
+}
+
+.modal-header-py {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.modal-header-py h1{
+    color: #3a1019;
+}
+
+.modal-close-py {
+  background: none;
+  border: none;
+  font-size: 1.9rem;
+  cursor: pointer;
+}
+
+.modal-body-py {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group-py {
+  margin-bottom: 15px;
+}
+
+.form-group-py label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group-py input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.payment-submit-button {
+  width: 100%;
+  align-items: center;
+  background-color: #3a1019;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.payment-submit-button:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform 0.2s ease-out;
+  z-index: -1;
+}
+
+.payment-submit-button:hover:after {
+  transform: translate(0, 0);
+}
+
+.payment-submit-button:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.payment-submit-button:hover {
+  outline: 0;
+}

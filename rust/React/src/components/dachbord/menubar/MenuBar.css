@@ -1,0 +1,50 @@
+.menu-bar-container {
+    width: 250px;
+    height: 100vh;
+    background-color: white;
+    border-right: 2px solid #3a1019;
+}
+
+.menu-logo img {
+    width: 200px;
+    margin: 0;
+}
+
+.menu-bar-container ul {
+    width: 100%;
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.menu-bar-container ul li {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.menu-bar-container ul li:hover {
+    background-color: #aaaa73;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.active-link {
+    background-color: #aaaa73;
+    border-radius: 10px;
+}
+

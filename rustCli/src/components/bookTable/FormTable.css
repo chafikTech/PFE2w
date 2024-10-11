@@ -1,0 +1,31 @@
+.container-form-t {
+    width: 100%;
+    padding: 50px;
+}
+
+
+.container-form-t button{
+    width: 100%;
+    padding: 15px 40px;
+    font-size: 1rem;
+    background: transparent;
+    border: 2px solid #3a1019;
+    cursor: pointer;
+}
+.container-form-t button:hover{
+    background: #3a1019;
+    color: white;
+}
+
+
+.container-form-t input:focus ,.input-box:focus{
+    color: #9f1935;
+    border-color: #9f1935;
+}
+
+/* .container-form-t .input-box:hover{ */
+/*     color: #9f1935; */
+/* } */
+
+
+

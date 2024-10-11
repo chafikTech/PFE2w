@@ -1,0 +1,24 @@
+.dashboard{
+    height: 100vh;
+    position: relative;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.menubar {
+    position: fixed;
+    top: 50px; /* Adjust based on navbar height */
+    z-index: 999;
+}
+
+.content {
+    position: absolute;
+    top: 65px;
+    width: calc(100% - 250px);
+    height: 100%;
+    margin-left: 250px;
+}

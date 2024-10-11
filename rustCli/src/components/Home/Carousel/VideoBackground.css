@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.container-wra {
+    overflow: hidden;
+}
+
+.container-home {
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.img-home {
+    width: 50%;
+}
+
+.img-home img {
+    width: 900px;
+}
+
+.content-home {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content-home h1 {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-size: 6rem;
+    color: #3a1019;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 30%;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+.typing {
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.15em solid transparent;
+    animation:
+        typing 3.5s steps(30, end),
+        blink 0.75s step-end infinite;
+}
+
+.content-home p {
+    width: 80%;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 1.3rem;
+    color: black;
+    line-height: 2;
+}
+
+.card-ser {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card-item-se {
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    width: 400px;
+    background: rgba(58, 16, 25, 0.8);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.1s ease-in;
+}
+
+.card-item-se:hover{
+    background: rgba(58, 16, 25, 0.9);
+    transform: scale(1.01);
+}
+
+.card-item-se i {
+    font-size: 3rem;
+    position: relative;
+    /* Ensure the icon is above the blur effect */
+}
+
+.btn-ser {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btn-ser button {
+    padding: 20px 40px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #3a1019;
+    color: white;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+}
+.btn-ser button:hover {
+    background: rgba(58, 16, 25, 0.8);
+    transform: scale(1.1);
+
+}
+
+.img-cont-h {
+    padding: 20px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.img-c {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    width: 50%;
+}
+
+.img-c img {
+    width: 360px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.cont-c {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cont-c h1 {
+    font-family: "Dancing Script", cursive;
+    color: #3a1019;
+    font-size: 5rem;
+}
+
+.cont-c p {
+    width: 400px;
+    opacity: 0.7;
+}
+
+.num-con {
+    display: flex;
+    margin-top: 30px;
+}
+
+.num-1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-left: 5px solid #3a1019;
+    padding: 20px;
+}
+
+.num-1 span {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.num-cont span {
+    font-size: 1.4rem;
+}
+
+.food-con {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    gap: 60px;
+}
+
+.food-con h1 {
+    font-size: 6rem;
+    font-family: "Dancing Script", cursive;
+    color: #3a1019;
+}
+
+.flag-con-h {
+    display: flex;
+    gap: 140px;
+}
+
+.flag-con-h img {
+    width: 100px;
+}
+
+.food-items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.article-card {
+    width: 350px;
+    height: 220px;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow:
+        0 1px 3px rgba(0, 0, 0, 0.12),
+        0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 300ms;
+}
+
+.article-card:hover {
+    transform: translateY(-2px);
+    box-shadow:
+        0 14px 28px rgba(0, 0, 0, 0.25),
+        0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.article-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.article-card .content {
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    padding: 30px 20px 20px 20px;
+    height: auto;
+    bottom: 0;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.6));
+}
+
+.article-card .date,
+.article-card .title {
+    margin: 0;
+}
+
+.article-card .date {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 4px;
+}
+
+.article-card .title {
+    font-size: 17px;
+    color: #fff;
+}
+
+.chef-cont {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.chef-cont h1 {
+    font-size: 6rem;
+    font-family: "Dancing Script", cursive;
+    color: #3a1019;
+}
+
+.container img {
+    width: 500px;
+    height: 100%;
+    object-fit: cover;
+
+    -webkit-box-reflect: below 2px linear-gradient(transparent, transparent, #0004);
+
+    transform-origin: center;
+    transform: perspective(800px) rotateY(25deg);
+    transition: 0.5s;
+}
+
+.container {
+    max-width: 600px;
+    max-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.container:hover img {
+    opacity: 0.3;
+}
+
+.container img:hover {
+    transform: perspective(800px) rotateY(0deg);
+    opacity: 1;
+}
